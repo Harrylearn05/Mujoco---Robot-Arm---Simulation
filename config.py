@@ -36,7 +36,7 @@ def dxl_to_rpm(value):
     return (value * 0.229)
 
 # Configuration
-DEVICENAME = "/dev/ttyACM0" # 'COM5' in Windows
+DEVICENAME = "/dev/ttyUSB0"
 BAUDRATE = 1000000
 PROTOCOL_VERSION = 2.0
 portHandler = PortHandler(DEVICENAME)
