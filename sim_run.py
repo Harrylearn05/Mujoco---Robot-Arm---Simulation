@@ -10,7 +10,7 @@ data = mujoco.MjData(model)
 
 sim_motors = Mujoco_Motors(model, data)
 tasks = RobotController(sim_motors)
-mission = "dance"
+mission = "pick and place"
 
 with mujoco.viewer.launch_passive(model, data) as viewer:
     while viewer.is_running():
