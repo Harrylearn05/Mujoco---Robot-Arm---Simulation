@@ -48,12 +48,12 @@ Mujoco---Robot-Arm---Simulation/
 🏗 System Architecture
 
 The project follows a hierarchical structure to ensure modularity and scalability, as shown in the system diagram:
-1. Low-Level Layer
 
 <p align="center">
   <img src="graph.jpeg" alt="System Architecture Flowchart">
 </p>
 
+1. Low-Level Layer
 This layer handles direct communication with the hardware or the physics engine.
 
     Interfaces (sim_interface.py & real_interface.py): These contain atomic functions such as:
