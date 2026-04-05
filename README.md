@@ -62,7 +62,7 @@ pip install mujoco
 
 Run the simulation:
 
-```bash
+```
 python3 sim_run.py
 ```
 
