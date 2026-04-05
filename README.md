@@ -6,13 +6,12 @@
   <img src="https://img.shields.io/badge/License-Apache%202.0-orange">
 </p>
 
-<p align="center">
-  <img src="open_manipulator_x.png">
-</p>
-
 A simple and modular robotic arm simulation built using **MuJoCo**.
 This project is designed for learning robotics, control systems, and simulation.
 
+<p align="center">
+  <img src="open_manipulator_x.png">
+</p>
 ---
 
 ## 🚀 Features
