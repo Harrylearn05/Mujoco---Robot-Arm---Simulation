@@ -44,7 +44,7 @@ Mujoco---Robot-Arm---Simulation/
 
 ## ⚙️ Installation
 
-```bash
+```
 # Clone repository
 git clone https://github.com/Harrylearn05/Mujoco---Robot-Arm---Simulation.git
 cd Mujoco---Robot-Arm---Simulation
