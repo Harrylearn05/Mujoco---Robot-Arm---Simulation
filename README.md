@@ -6,6 +6,10 @@
   <img src="https://img.shields.io/badge/License-Apache%202.0-orange">
 </p>
 
+<p align="center">
+  <img src="[https://img.shields.io/badge/Python-3.8%2B-blue](https://github.com/Harrylearn05/Mujoco---Robot-Arm---Simulation/blob/master/open_manipulator_x.png)">
+</p>
+
 A simple and modular robotic arm simulation built using **MuJoCo**.
 This project is designed for learning robotics, control systems, and simulation.
 
