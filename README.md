@@ -25,14 +25,20 @@ This project is designed for learning robotics, control systems, and simulation.
 
 ```
 Mujoco---Robot-Arm---Simulation/
-│── models/        # Robot XML (MJCF) files
-│── scripts/       # Simulation & control code
-│── utils/         # Helper functions
-│── data/          # Output data (logs, CSV)
-│── main.py        # Entry point
-│── requirements.txt
-│── README.md
-```
+|-- assets/                    # Assets and resources
+|-- config.py                  # Configuration settings
+|-- dt_run.py                  # Digital twin running script
+|-- interpolator.py            # Interpolation functions for trajectories
+|-- open_manipulator_x.png     # Reference image of the manipulator
+|-- open_manipulator_x.xml     # Robot model (MJCF format)
+|-- real_interface.py          # Hardware interface for the real robot arm
+|-- robot_tasks.py             # Defined tasks and movements
+|-- scene.xml                  # Main MuJoCo simulation scene
+|-- sim_interface.py           # Interface for the simulated robot
+|-- sim_run.py                 # Simulation execution script
+|-- twin_bridge.py             # Bridge logic for the digital twin
+|-- LICENSE                    # Apache-2.0 License
+|-- README.md                  # Project documentation
 
 ---
 
@@ -44,7 +50,7 @@ git clone https://github.com/Harrylearn05/Mujoco---Robot-Arm---Simulation.git
 cd Mujoco---Robot-Arm---Simulation
 
 # Install dependencies
-pip install -r requirements.txt
+pip install dynamixel_sdk 
 
 # Install MuJoCo
 pip install mujoco
@@ -57,7 +63,7 @@ pip install mujoco
 Run the simulation:
 
 ```bash
-python main.py
+python3 sim_run.py
 ```
 
 ---
@@ -75,17 +81,6 @@ python main.py
 
 ---
 
-## 📊 Output
-
-The simulation can generate:
-
-* Joint positions and velocities
-* End-effector trajectories
-* Sensor data
-* CSV logs for further analysis
-
----
-
 ## 🧠 Learning Objectives
 
 This project helps you understand:
@@ -96,23 +91,3 @@ This project helps you understand:
 * Data collection for robotics and AI
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch
-3. Submit a pull request
-
----
-
-## 📄 License
-
-This project is licensed under the Apache 2.0 License.
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving it a star ⭐
