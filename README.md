@@ -12,6 +12,7 @@ This project is designed for learning robotics, control systems, and simulation.
 <p align="center">
   <img src="open_manipulator_x.png">
 </p>
+
 ---
 
 ## 🚀 Features
