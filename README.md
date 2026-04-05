@@ -40,7 +40,7 @@ Mujoco---Robot-Arm---Simulation/
 |-- LICENSE                    # Apache-2.0 License
 |-- README.md                  # Project documentation
 
----
+```
 
 ## ⚙️ Installation
 
