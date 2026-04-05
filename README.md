@@ -48,7 +48,7 @@ Mujoco---Robot-Arm---Simulation/
 🏗 System Architecture
 
 <p align="center">
-  <img src="graph.jpeg" alt="System Architecture Flowchart" width="80%">
+  <img src="graph.jpeg" alt="System Architecture Flowchart">
 </p>
 
 The project follows a hierarchical structure to ensure modularity and scalability, as shown in the system diagram:
