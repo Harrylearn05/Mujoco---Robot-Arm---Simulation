@@ -11,12 +11,14 @@ model = mujoco.MjModel.from_xml_path("open_manipulator_x.xml")
 data = mujoco.MjData(model)
 
 sim_motors = Mujoco_Motors(model, data)
+
 real_motors = MX_Motors()
 real_motors.choose_mode(3)
+
 bridge = DigitalTwinBridge(sim_motors, real_motors)
 tasks = RobotController(bridge) 
 
-mission = "dance"
+mission = "pick and place"
 
 with mujoco.viewer.launch_passive(model, data) as viewer:
     while viewer.is_running():
